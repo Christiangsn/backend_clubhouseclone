@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",                     
+        "lib": ["es2020"],                            
+        "outDir": "./dist",                        
+        "rootDir": "./src",    
+        "target": "es2020",
+        "esModuleInterop": true,
+        "removeComments": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,        
+        "emitDecoratorMetadata": true,      
+        "baseUrl": "./src",
+        "paths": {   
+          "@domain/*": ["domain/*"],
+          "@infra/*": ["infra/*"],
+          "@presentation/*": ["presentation/*"],
+          "@util/*": ["util/*"],
+          "@data/*": ["data/*"],
+          "@main/*": ["main/*"],
+          "@app/*": ["app/*"],
+        }
+    }
+}
